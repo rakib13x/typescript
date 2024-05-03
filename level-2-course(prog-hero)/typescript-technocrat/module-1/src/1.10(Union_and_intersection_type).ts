@@ -1,5 +1,5 @@
 {
-  /**------------------------Union types-------------------------- */
+  /**-----------------------------Union types----------------------------- */
 
   type User = {
     name: string;
@@ -14,7 +14,7 @@
     bloodGroup: "B+",
   };
 
-  /**------------------------Intersection types-------------------------- */
+  /**------------------------Intersection types----------------------------*/
   type FrontEndDeveloper = {
     skills: string[];
     designation1: "FrontEndDeveloper";
