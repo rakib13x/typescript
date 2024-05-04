@@ -23,7 +23,12 @@
   type GenericTuple<X, Y> = [X, Y];
   const man: GenericTuple<string, string> = ["Mr. X", "Mr. Y"];
 
-  const UserWithID: GenericTuple<number, { name: string; email: string }> = [
+  interface User {
+    name: string;
+    email: string;
+  }
+
+  const UserWithID: GenericTuple<number, User> = [
     1234,
     { name: "rakib", email: "rakib@gmail.com" },
   ];
